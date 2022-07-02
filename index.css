@@ -1,5 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&family=Merriweather:ital,wght@1,300&family=Nunito+Sans:wght@300&display=swap');
 *{
   margin:0;
   padding:0;
   box-sizing: border-box;
+}
+body{
+  background-image: url(background.jpg);
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+h1,h2{
+  color:whitesmoke;
+  text-align: center;
+  font-size:50px;
+  font-family:'Nunito Sans', sans-serif;
+  font-weight: bold;
+}
+h2{
+font-size:40px;
+margin-top:40px;
+margin-left:100px;
+text-align: left;
+}
+
+.container{
+  background: rgba(225, 228, 11, 0.91);
+  display: flex;
+  padding:10px;
+  margin-left:180px;
+  margin-top:50px;
+  width:70%;
+  height:auto;
+  flex:1;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.items{
+  padding:20px;
+  margin:10px;
+  background:#2d0c4a;
+  color:white;
+}
+.item2{
+  flex:3;
+}
+.item1{
+  flex:2;
+}
+.item7{
+  flex-basis: 20%;
+}
+.container2{
+  background: rgba(225, 228, 11, 0.91);
+padding:10px;
+  margin-left:180px;
+  margin-top:50px;
+  width:70%;
+  height:auto;
+  display: grid;
+  grid-template-columns:repeat(4,1fr);
+
+
+}
+.grids{
+padding:20px;
+margin:10px;
+background:#2d0c4a;
+color:white;
+}
+.container2 .item1{
+grid-column: 3fr;
 }
